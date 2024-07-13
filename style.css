@@ -1,0 +1,183 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Header */
+.sticky-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background:#333;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(255, 254, 254, 0.1); 
+}
+.sticky-header h1{
+        color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+/* Front */
+.hero {
+    background-image: url('./ivan-bandura-Uqh2z0isu6M-unsplash.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 20px;
+    border-radius: 5px;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.read-more:hover {
+    background: darkred;
+}
+
+
+.about-section {
+    display: flex;
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.image-container {
+    flex: 1; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.content-container {
+    flex: 1; 
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.content-container h2 {
+    margin-bottom: 10px; 
+}
+
+.content-container h3 {
+    margin-top: 20px;
+}
+
+.content-container ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.content-container ul li {
+    margin: 5px 0;
+}
+
+
+
+#clients-section {
+    text-align: center;
+    padding: 20px;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 50px; 
+}
+
+#image-container img {
+    width: 180px; 
+    height: auto; 
+    border-radius: 10px;
+
+}
+
+#clients-section h1{
+    font-size: 50px;
+}
+
+.green-text {
+    color: rgb(24, 187, 24); 
+}
+
+/* Footer */
+
+
+.footer {
+    background-color: #333;
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+}
+.footer-content {
+    margin-bottom: 20px; 
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer label {
+    margin: 5px 0;
+}
+
+.footer input,
+.footer textarea {
+    width: 300px; 
+    margin: 5px 0; 
+    padding: 10px; 
+    border: none;
+    border-radius: 5px; 
+}
+
+.footer button {
+    padding: 10px 20px;
+    background-color: rgb(0, 165, 0);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+
+
+
+
+
